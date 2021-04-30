@@ -1,0 +1,39 @@
+:root {
+    --grid-cols: 1
+    --grid-rows: 1
+}
+
+header {
+    font-size: 50px;
+    padding-top: 25px;
+    font-family: cursive; 
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1%;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+
+    border: 2px red solid;
+}
+
+.grid-item {
+    padding-top: 100%;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.grid-item:hover {
+    
+}
+
+.hover {
+    background-color: black;
+}
+
+
+
