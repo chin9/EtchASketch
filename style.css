@@ -3,6 +3,10 @@
     --grid-rows: 1
 }
 
+body {
+    background-color: rgb(225, 210, 231);
+}
+
 header {
     font-size: 50px;
     padding-top: 5px;
@@ -68,6 +72,7 @@ header {
 
     border: 1px solid #ddd;
     text-align: center;
+    background-color: white;
 }
 
 
